@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html>
-  <head>
-  	<link href="normalize.css" rel="stylesheet"/> 	<!--This links to the "reset"-->
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+  	<link href="file:///Users/Desiree/Documents/GitHub/BEST_Website/normalize.css" rel="stylesheet"> 	<!--This links to the "reset"-->
   	<style type="text/css">
 
-  	html *
-	{
-	   font-size: 1em;
-	   color: #000;
-	   font-family:	Helvetica;
+  	body {
+  		font-size: 1em;
+	  	color: #000;
+	   	font-family: 'Open Sans', sans-serif;
 	}
 
   	.branding-bar{
 	    width: 100%; height: 100px;
-	    border-style: solid;
-	    border-color: #002878;
 	    background-color: #002878;
+	    text-align:left;
+	    font-size: 3em;
+	    color:#fff;
+	    padding-top: 2em;
+	    margin-top:2em;
+	    padding-left:0.5em;
 	}
 
 	.main-header {
@@ -25,14 +30,7 @@
 	.main-image {
 		width: 100%;
 		display: block; /*This gets rid of the weird little space from inline-block*/
-		padding-bottom: 40px;
-	}
-
-	.new-box{
-		display: block;
-		width:100%
-		height: 10%px;
-		background-color: white;
+		margin-bottom: 40px;
 	}
 
 	.outer-block {
@@ -41,7 +39,7 @@
 	}
 
 	.grid-thirds {
-		padding-left: 1%;
+		padding-left: 0%;
 		padding-right: 1%;
 		margin: 0 auto;
 	}
@@ -51,48 +49,45 @@
 		width: 31%;
 		background-color: #011f5f;
 		margin-left: 2%;
-		margin-top: 7%;
+		margin-top: 5%;
 		float: left;
 	}
 		.square-title {
 			color: #ededea;
-			font-family: Arial, sans-serif;
 			font-size: 1.8em;
 			margin: 0 auto;
 			text-transform: uppercase;
 			text-align: center;
+			padding-top: 2em;
 		}
 
   	</style>
 
-    <meta charset="UTF-8">
+    
 
     <title>Atlanta BEST Resources</title>
 
   </head>
   
   <body>
-	<div class="branding-bar">Emory Atlanta Best Resources</div>
-	<div class="new-box"> new-box </div>
-	<img class="main-image" src="hero1.jpg">
-	<div class="new-box"> new-box </div>
+	<div class="branding-bar">Atlanta <strong>BEST</strong> Resources</div>
+	<img class="main-image" src="file:///Users/Desiree/Documents/GitHub/BEST_Website/hero1.jpg">
 	<div class="outer-block">
 		<div class="grid-thirds">
 			<div class="squares">
-				<div class="square-title">General Resources</div>
+				<div class="square-title"><strong>General Resources</strong></div>
 			</div>
 			<div class="squares">
-				<div class="square-title">Individual Development</div>
+				<div class="square-title"><strong>Individual Development</strong></div>
 			</div>
 			<div class="squares">
-				<div class="square-title">Career Tracks</div>
+				<div class="square-title"><strong>Career Tracks<strong></div>
 			</div>
-				
 		</div>
 	</div>
 		
 
 
   	
-  </body>
-</html>
+  
+</body></html>
