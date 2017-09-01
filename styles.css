@@ -1,28 +1,59 @@
 body {
 	  		font-size: 1em;
-		  	color: #000;
+		  	color: rgba(26,26,26,.9);
 		   	font-family: 'Open Sans', sans-serif;
 		   	background-color: #f5f5f5;
 		}
 		  	.branding-bar{
 			    width: 100%; 
-			    height: 60px;
+			    height: 80px;
 			    background-color: #002878;
 			    padding-right:4em;
 			    text-align: right;
 			    font-size: 1em;
 			    color:#f7f7f7;
-			    line-height: 60px;
+			    line-height: 80px;
 			    position:fixed;
 			    z-index: 999;
 			    
 			}
-				.link{
-					color:#CACACA;
-					padding: 1em;
+
+				.button-link{
+					padding-left: 2em;
+					padding-right: 2em;
+					padding-top:1em;
+					padding-bottom:1em;
+					border-radius: 50px;
+				    /* this is irrelevant, and just so the element can be visualised/displayed: */
+				    margin: 2em auto;
+				    border: 1px solid #fff;
+    				color: #fff;
+    				font-size: .75em;
+    				text-decoration: none;
+    				margin-right: 5%;
 				}
+
+				.button-link:hover {
+					color: #002878;
+					background-color:white;
+				}
+
+
+				.link{
+					color: #fff;
+					text-decoration: none;
+					font-size: .75em;
+					text-transform: uppercase;
+					margin-right: 2em;
+				}
+				.link:hover{
+					color:#f5f5f5;
+					font-style: bold;
+				}
+
+
 			.background-panel{
-				padding-top:120px;
+				padding-top:140px;
 				display: block;
 				background-color:#f5f5f5;
 
@@ -47,25 +78,17 @@ body {
 					
 					}
 
-					.outer-block {
-						height: 325px;
+					.pre-foot{
+						height: 70px;
 						background-color: #002878;
-						margin-bottom: 2em;
+						clear:both;
 					}
 
-					.grid-thirds {
-						padding-left: 0%;
-						padding-right: 1%;
-						margin: 0 auto;
-					}
 
-					.square {
-						height: 240px;
-						width: 31%;
+					.footer {
+						height: 140px;
 						background-color: #011f5f;
-						margin-left: 2%;
-						margin-top: 5%;
-						float: left;
+						
 					}
 						.square-title {
 							color: #ededea;
@@ -77,14 +100,22 @@ body {
 						}
 
 					.resources-head {
-						color: navy;
-						font-size: 2em;
+						color: #007698;
+						font-size: 1.5em;
 						margin-bottom: .5em;
+						margin-top: 2em;
+						text-transform: uppercase;
 					}
-					.block{
-						margin: 0 auto;
-						padding: 20px 5%;
+
+					.resources-text{
+						margin-bottom: 1em;
+						line-height: 1.5em;
+						font-family: 'Lora', serif;
+						font-size: .9em;
+						color: #4a4a4a;
+
 					}
+
 
 	.image-descript{
 		position: relative;
@@ -149,6 +180,25 @@ body {
     padding-left: 32px;
 }
 
+.main_subpage{
+	padding: 96px 32px;
+    padding-top: 96px;
+    padding-right: 32px;
+    padding-bottom: 96px;
+    padding-left: 32px;
+
+}
+
+.block{
+	float: right;
+	width:75%;
+	margin: 0 auto;
+	padding-left: 2.5em;
+	padding-right: 2em;
+	box-sizing: border-box;
+	
+}
+
 .main-content{
 	width: 100%;
     display: block;
@@ -157,13 +207,13 @@ body {
 }
 
 .main-content-p{
-	width: 50%;
-    display: block;
+	width: 90%;
     margin: 0 auto;
-    margin-bottom: 92px;
+    margin-top: 7px;
     text-align: center;
     font-family: 'Lora', serif;
     line-height: 150%;
+    margin-bottom: 90px;
 
 
 }
@@ -172,14 +222,18 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	width: 75%;
+	margin: 0 auto;
 }
 
 .box{
 	width: 50%;
-	padding: 2em;
+	padding: 1em;
 	box-sizing: border-box;
 	text-align: center;
 	margin-bottom: 2em;
+	color: inherit;
+	text-decoration: none;
 	
 }
 .box-image{
@@ -191,16 +245,57 @@ body {
 
 .box-caption-title{
 	font-style: bold;
-	font-size: 1.5em;
-	color: navy;
+	font-size: 1.2em;
+	color: #007698;
 	padding-bottom: .75em;
 	padding-top: .75em;
 	text-align: center;
-
+	text-transform: uppercase;
 
 }
 
 .box-caption{
 	font-family: 'Lora', serif;
+	font-size: .8em;
+	line-height: 1.6em;
+
 }
-								
+
+.folder-nav{
+	text-transform: uppercase;
+	line-height: 2em;
+	font-size: .75em;
+	color: rgba(26,26,26,.4);
+	float: left;
+	width: 25%;
+	font-weight: 600;
+	letter-spacing: 0.0588235em;
+	box-sizing: border-box;
+	padding-right: 1em;
+}
+
+.no-bullet{
+	list-style-type: none;
+}
+	
+.folder-nav_current-page-li{
+	color: #333333;
+}				
+
+.nav-head{
+	color: #007698;
+	font-family: 'Lora', serif;
+	margin-bottom: .3em;
+	font-size: 1.3em;
+	text-transform: none;
+	font-weight: 300;
+
+}			
+
+.resources-list{
+	line-height: 1.5em;
+	font-family: 'Lora', serif;
+	font-size: .9em;
+	color: rgba(26,26,26,.7);
+
+}
