@@ -162,6 +162,16 @@ body {
     	color: #fff;
 	}
 
+	.med-image-text { 
+		
+		letter-spacing: 0.065em;
+		line-height: 1em;
+		font-size: 24px;
+		text-transform: uppercase;
+		text-align: center; 
+		display:block;
+		color: #fff;
+	}
 
 	.big-image-text { 
 		
@@ -278,6 +288,19 @@ body {
 
 .box-image{
 	width: 100%;
+	margin: 0 auto;
+	display:block;
+}
+
+.box-image-career{
+	width: 100%;
+	object-fit: contain
+	margin: 0 auto;
+	display:block;
+}
+
+.small-image{
+	width: 75%;
 	margin: 0 auto;
 	display:block;
 }

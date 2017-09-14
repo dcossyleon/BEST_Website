@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+            
+
+<style type="text/css">
+
+        body {
+            font-size: 1em;
+            color: #000;
+            font-family: 'Open Sans', sans-serif;
+        }
+            a:link, a:visited {
+            background-color: #f44336;
+            color: white;
+            padding: 14px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+            a:hover, a:active {
+            background-color: red;
+        }
+        
+            .branding-bar{
+                width: 100%; height: 60px;
+                background-color: #002878;
+                padding-left:80%;
+                padding-right:10em;
+                font-size: 1em;
+                color:#f7f7f7;
+                line-height: 60px;
+                position:fixed;
+            }
+                .link{
+                    color:#CACACA;
+                }
+            .background-panel{
+                width: 100%;
+                display: block;
+                background-color:#fff;
+            }
+                .panel{
+                    max-width: 850px;
+                    padding-top: 10%;
+                    background-color: #FFFFFF;
+                    display: block;
+                    margin: 0 auto;
+                }
+
+                    .main-header {
+                        color: #000789;
+                        font-size: 3em;
+                    }
+
+                    .main-image {
+                        width: 100%;
+                        display: block; /*This gets rid of the weird little space from inline-block*/
+                        margin-top:60px;
+                        margin-bottom: 60px;
+                    }
+
+                    .square-image {
+                        width: 100%;
+                        display: block; /*This gets rid of the weird little space from inline-block*/
+                        margin-top:60px;
+                        margin-bottom: 60px;
+                    }
+
+                    .outer-block {
+                        height: 325px;
+                        background-color: #002878;
+                        margin-bottom: 2em;
+                    }
+
+                    .outer-block-thin {
+                        height: 280px;
+                        background-color: #002878;
+                    }
+
+                    .grid-thirds {
+                        padding-left: 0%;
+                        padding-right: 1%;
+                        margin: 0 auto;
+                    }
+
+                    .squares {
+                        height: 240px;
+                        width: 31%;
+                        background-color: #011f5f;
+                        margin-left: 2%;
+                        margin-top: 2%;
+                        float: left;
+                    }
+
+                    .squares-thin {
+                        height: 240px;
+                        width: 31%;
+                        background-color: #011f5f;
+                        margin-left: 2%;
+                        margin-top: 2%;
+                        float: left;
+                    }
+
+                    .square-title {
+                        color: #ededea;
+                        font-size: 1.8em;
+                        margin: 0 auto;
+                        text-transform: uppercase;
+                        text-align: center;
+                        padding-top: 2em;
+
+                    }
+                    .square-title-policy {
+                        color: #ededea;
+                        font-size: 1.8em;
+                        margin: 0 auto;
+                        text-transform: uppercase;
+                        text-align: center;
+                        padding-top: 2em;
+
+                    }
+
+                    .main-text {
+                        font-size: 1.8em;
+                        margin-left: 2em;
+                        margin-right: 25% auto;
+                        padding-top: 1em;
+                        background-color: #FFFFFF;
+                        text-indent: 0em;
+                        color: #000000;
+                    }
+
+                    .body-text { 
+                        font-size: 0.8em;
+                        margin-left: % auto;
+                        margin-right: 25% auto;
+                        background-color: #FFFFFF;
+                        text-indent: 1em;
+                        color: #000000;
+                    }
+
+                    .body-header { 
+                        margin-right: 0em;
+                        padding-top: 2em;
+                        font-size: 1.2em;
+                        color: #000789;
+                    }
+
+                    button.accordion {
+                        background-color: #eee;
+                        color: #000000;
+                        cursor: pointer;
+                        padding: 18px;
+                        width: 100%;
+                        border: none;
+                        text-align: left;
+                        outline: none;
+                        font-size: 30px;
+                        transition: 0.4s;
+                    }
+
+                    button.accordion.active, button.accordion:hover {
+                       background-color: #ddd;
+                    }
+
+                    div.panel2 {
+                        font-size: 1.2em;
+                        padding: 0 60px;
+                        background-color: white;
+                        max-height: 0;
+                        overflow: hidden;
+                        transition: max-height 0.4s ease-out;
+                    }
+        </style>
+            <div class="thumb thumb-type-1 masonry-brick" style="position: absolute; top: 0px; left: 0px; height: 142px;">
+                <a href="measuring_behavior.html" data-caption="Measuring Animal Behavior" style="height: 142px; width: 207px; margin-left: 0px; margin-top: 0px; overflow: hidden;">
+                    <img src="http://www.biology.emory.edu/Berman/web_images/eigs.png" alt="">
+                <div class="thumb-rollover" style="width: 207px; height: 142px; left: 0px; top: 0px; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); opacity: 0;"><div class="thumbInfo" style="padding: 50px 0px 0px; opacity: 0;"></div></div></a>
+            </div>
+            
+            <div class="thumb thumb-type-1 masonry-brick" style="position: absolute; top: 0px; left: 213px; height: 142px;">
+                <a href="posture_control.html" data-caption="Postural Dynamics and Control" style="height: 142px; width: 207px; margin-left: 0px; margin-top: 0px; overflow: hidden;">
+                    <img src="http://www.biology.emory.edu/Berman/web_images/modes.png" alt="">
+                <div class="thumb-rollover" style="width: 207px; height: 142px; left: 0px; top: 0px; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); opacity: 0;"><div class="thumbInfo" style="padding: 50px 0px 2.25781px; opacity: 0;"></div></div></a>
+            </div>
+            <div class="thumb thumb-type-1 masonry-brick" style="position: absolute; top: 148px; left: 0px; height: auto;">
+                <a href="vocalizations.html" data-caption="Quantifying Vocalizations and Social Communication" style="height: auto; width: inherit; margin-left: 0px; margin-top: 0px;">
+                    <img src="http://www.biology.emory.edu/Berman/web_images/mouse_vocs.png" alt="">
+                <div class="thumb-rollover" style="width: 286px; height: 196px; left: 0px; top: 0px; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); opacity: 0;"><div class="thumbInfo" style="padding: 50px 0px 0px; opacity: 0;"></div></div></a>
+            </div>
+            <div class="thumb thumb-type-1 masonry-brick" style="position: absolute; top: 148px; left: 213px; height: 142px;">
+                <a href="temporal.html" data-caption="Temporal Organization of Behavior" style="width: 207px; height: 142px; margin-left: 0px; margin-top: 0px;">
+                    <img src="http://www.biology.emory.edu/Berman/web_images/hierarchy.png" alt="">
+                <div class="thumb-rollover" style="width: 207px; height: 142px; left: 0px; top: 0px; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); opacity: 0;"><div class="thumbInfo" style="padding: 50px 0px 0px; opacity: 0;"></div></div></a>
+            </div>
+            <div class="thumb thumb-type-1 masonry-brick" style="position: absolute; top: 296px; left: 0px; height: auto;">
+                <a href="neural_control.html" data-caption="Neural Control of Behavior" style="width: inherit; height: auto;">
+                    <img src="http://www.biology.emory.edu/Berman/web_images/DI_trace.png" alt="">
+                <div class="thumb-rollover"><div class="thumbInfo"></div></div></a>
+            </div>
+            
+            
+            <div class="thumb thumb-type-1 masonry-brick" style="position: absolute; top: 296px; left: 213px; height: auto;">
+                <a href="evolution.html" data-caption="Evolution of Behavior" style="height: auto; width: inherit; margin-left: 0px; margin-top: 0px;">
+                    <img src="http://www.biology.emory.edu/Berman/web_images/fly_evo.png" alt="">
+                <div class="thumb-rollover" style="width: 286px; height: 196px; left: 0px; top: 0px; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); opacity: 0;"><div class="thumbInfo" style="padding: 50px 0px 0px; opacity: 0;"></div></div></a>
+            </div>
+            
+
+
+
+element {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 142px;
+}
+#content-wrapper section.homepage #grid .thumb-type-1 {
+    width: 207px !important;
+    height: 142px !important;
+}
+#content-wrapper section.homepage #grid .thumb-type-1, #content-wrapper section.homepage #grid .thumb-type-2, #content-wrapper section.homepage #grid .thumb-type-3, #content-wrapper section.homepage #grid .thumb-type-4, #content-wrapper section.homepage #grid .thumb-type-4 {
+    height: auto;
+    overflow: hidden;
+    float: left;
+    margin: 0 0 6px 6px;
+    box-shadow: inset 0 0 0 3px rgba(255,255,255,1);
+    -webkit-box-shadow: inset 0 0 0 3px rgba(255,255,255,1);
+}
+#content-wrapper section.homepage #grid .thumb-type-1 {
+    width: 286px !important;
+    height: 196px !important;
+}
+.thumb {
+    position: relative;
+    overflow: hidden;
+    float: left;
+    line-height: 0;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+        line-height: inherit;
+    vertical-align: baseline;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    font: 13px/19px Arial, Helvetica, sans-serif;
+    color: #999;
+}
+
+.thumb a .thumb-rollover {
+    position: absolute;
+    display: table;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    background: rgba(0,0,0,0.8);
+        background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    opacity: 0;
+    z-index: 1;
+}
+            
